@@ -1,0 +1,23 @@
+.Question__Card {
+  margin: var(--mg_md) 0px;
+}
+.Question__Card .Question__Text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap_l);
+}
+.Question__Card .Question__Text h3 {
+  font-size: clamp(1rem, 4vw, 1.2rem);
+}
+.Question__Card .Question__Text button {
+  display: grid;
+  place-items: center;
+}
+.Question__Card .Answer__Container {
+  margin-top: var(--mg_sm);
+  overflow: hidden;
+}
+.Question__Card .Answer__Container p {
+  color: hsl(292, 16%, 49%);
+}/*# sourceMappingURL=QuestionCard.css.map */
